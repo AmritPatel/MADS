@@ -1,5 +1,4 @@
 import sys
-import pprint
 import warnings
 import numpy as np
 import pylab as plt
