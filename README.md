@@ -18,7 +18,24 @@ Command-line Execution
 Command-line Argument Definitions
 =================================
 
-type	    	# fuel and rack type; options are "pwr" or "bwr"
+```
+[...]
+* [Essential Pascal Version 1 and 2](http://www.marcocantu.com/epascal/)
+
+
+###DTrace
+* [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html)
+* [Some Other Book](http://so.me/other/book.html)
+
+BAD : * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html)(PDF)
+GOOD: * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html) (PDF)
+
+BAD : * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html)- Robert
+GOOD: * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html) - Robert
+
+```
+
+type	    # fuel and rack type; options are "pwr" or "bwr"
 solbor1		# initial soluble boron concentration in ppm; pwr takes input between 0 and 2500
 npanels1	# initial number of degraded panels; must be an integer between 1 and 200
 adens1		# initial areal density; must be a number between 0 and 0.022
