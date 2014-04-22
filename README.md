@@ -13,25 +13,13 @@ Dependencies
 Command-line Execution
 ======================
 
-./mads.py type solbor1 npanels1 adens1 solbor2 npanels2 adens2
+
 
 Command-line Argument Definitions
 =================================
 
 ```
-[...]
-* [Essential Pascal Version 1 and 2](http://www.marcocantu.com/epascal/)
-
-
-###DTrace
-* [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html)
-* [Some Other Book](http://so.me/other/book.html)
-
-BAD : * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html)(PDF)
-GOOD: * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html) (PDF)
-
-BAD : * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html)- Robert
-GOOD: * [IllumOS Dynamic Tracing Guide](http://dtrace.org/guide/preface.html) - Robert
+./mads.py type solbor1 npanels1 adens1 solbor2 npanels2 adens2
 
 ```
 
