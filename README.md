@@ -6,9 +6,9 @@ Map of Absorber Degradation Sensitivity (MADS) interpolates between an initial a
 Dependencies
 ============
 
-python 2.7
-numpy
-pylab
+- Python 2.7
+- Numpy
+- PyLab
 
 Command-line Execution
 ======================
