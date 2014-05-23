@@ -1,4 +1,4 @@
-# Shows the effect of having the SFP @ various fuel burnups as a funtion of varying
+# Shows the effect of having the SFP @ various fuel burnups as a function of varying
 # numbers of full panel degradation.
 
 library(ggplot2)
@@ -30,7 +30,7 @@ r1$guides(x = list(min = 0, max = 210),
           y = list(min = 0, max = 0.35)
           )
 r1$addParams(title = "Delta-k-eff vs. Number of Fully Degraded Panels (BWR SFP)")
-r1$publish("Delta-k-eff vs. Number of Fully Degraded Panels (BWR SFP)", host = 'gist')
+#r1$publish("Delta-k-eff vs. Number of Fully Degraded Panels (BWR SFP)", host = 'gist')
 
 # Filter the full degradation delta-k-effs to include only PWR results
 pwr_full_deg <- filter(adens_0, type == "pwr")
@@ -46,4 +46,4 @@ r2$guides(x = list(min = 0, max = 210),
           y = list(min = 0, max = 0.18)
           )
 r2$addParams(title = "Delta-k-eff vs. Number of Fully Degraded Panels (PWR SFP)")
-r2$publish("Delta-k-eff vs. Number of Fully Degraded Panels (PWR SFP)", host = 'gist')
+#r2$publish("Delta-k-eff vs. Number of Fully Degraded Panels (PWR SFP)", host = 'gist')
