@@ -4,9 +4,11 @@
 library(ggplot2)
 library(rCharts)
 library(dplyr)
+library(RCurl)
 
 # Read in the data
-summary_database <- read.csv("C:/Users/axp13/Desktop/Absorber Degradation Sensitivity Study/summary_database.csv")
+x <- getURL("https://raw.githubusercontent.com/AmritPatel/MADS/master/summary_database.csv")
+summary_database <- read.csv(text = x)
 # Use dataframe wrapper
 summary_df <- tbl_df(summary_database)
 
