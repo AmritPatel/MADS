@@ -30,3 +30,8 @@ npanels2	# final number of degraded panels; must be an integer between 1 and 200
 adens2		# final degraded areal density; must be a number between 0 and 0.022
 ```
 
+Summary Plots
+=============
+
+[Delta-k-eff vs. Number of Fully Degraded Panels (BWR SFP)](http://rcharts.io/viewer/?ac77c1d20ad6893806b0#.U4M2VVhdWxw "Delta-k-eff vs. Number of Fully Degraded Panels (BWR SFP)")
+
