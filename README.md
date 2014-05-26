@@ -34,5 +34,6 @@ Summary Plots
 =============
 
 [Delta-k-eff vs. Number of Fully Degraded Panels (BWR SFP)](http://rcharts.io/viewer/?ac77c1d20ad6893806b0#.U4M2VVhdWxw "View in rCharts Viewer")
+
 [Delta-k-eff vs. Number of Fully Degraded Panels (PWR SFP)](http://rcharts.io/viewer/?117ca86a2d5d3f5fbf0a#.U4M251hdWxw "View in rCharts Viewer")
 
