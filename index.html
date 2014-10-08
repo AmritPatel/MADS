@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="MADS : Map of Absorber Degradation Sensitivity (MADS) interpolates between an initial and final degradation state point based on data calculated from BWR/PWR SFP fixed neutron absorber degradation sensitivity studies.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>MADS</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/AmritPatel/MADS">View on GitHub</a>
+
+          <h1 id="project_title">MADS</h1>
+          <h2 id="project_tagline">Map of Absorber Degradation Sensitivity (MADS) interpolates between an initial and final degradation state point based on data calculated from BWR/PWR SFP fixed neutron absorber degradation sensitivity studies.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/AmritPatel/MADS/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/AmritPatel/MADS/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="mads" class="anchor" href="#mads"><span class="octicon octicon-link"></span></a>MADS</h1>
+
+<p>Map of Absorber Degradation Sensitivity (MADS) interpolates between an initial and final degradation state point based on data calculated from BWR/PWR SFP fixed neutron absorber degradation sensitivity studies.</p>
+
+<h1>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h1>
+
+<ul>
+<li>Python 2.7</li>
+<li>Numpy</li>
+<li>PyLab</li>
+</ul><h1>
+<a name="command-line-execution" class="anchor" href="#command-line-execution"><span class="octicon octicon-link"></span></a>Command-line Execution</h1>
+
+<pre><code>./mads.py type solbor1 npanels1 adens1 solbor2 npanels2 adens2
+</code></pre>
+
+<h1>
+<a name="command-line-argument-definitions" class="anchor" href="#command-line-argument-definitions"><span class="octicon octicon-link"></span></a>Command-line Argument Definitions</h1>
+
+<pre><code>type        # fuel and rack type; options are "pwr" or "bwr"
+solbor1     # initial soluble boron concentration in ppm; pwr takes input between 0 and 2500
+npanels1    # initial number of degraded panels; must be an integer between 1 and 200
+adens1      # initial areal density; must be a number between 0 and 0.022
+solbor2     # final soluble boron concentration in ppm; pwr takes input between 0 and 2500
+npanels2    # final number of degraded panels; must be an integer between 1 and 200
+adens2      # final degraded areal density; must be a number between 0 and 0.022
+</code></pre>
+
+<h1>
+<a name="summary-plots" class="anchor" href="#summary-plots"><span class="octicon octicon-link"></span></a>Summary Plots</h1>
+
+<p><a href="http://rcharts.io/viewer/?ac77c1d20ad6893806b0#.U4M2VVhdWxw" title="View in rCharts Viewer">Delta-k-eff vs. Number of Fully Degraded Panels (BWR SFP)</a></p>
+
+<p><a href="http://rcharts.io/viewer/?117ca86a2d5d3f5fbf0a#.U4M251hdWxw" title="View in rCharts Viewer">Delta-k-eff vs. Number of Fully Degraded Panels (PWR SFP)</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">MADS maintained by <a href="https://github.com/AmritPatel">AmritPatel</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
