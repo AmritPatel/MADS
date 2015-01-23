@@ -260,7 +260,7 @@ Utility developed covering full range of degraded conditions to:
 
 ## Assessment capability developed
 
-<img src="https://dl.dropboxusercontent.com/u/22056684/MADS/assets/img/mads.png">
+<img src="https://raw.githubusercontent.com/AmritPatel/MADS/gh-pages/slides/assets/img/mads.png">
 
 <!-- Histogram plots were added as output to the program in order for the user to explore trends for specific degradation scenarios -->
 
