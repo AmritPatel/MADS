@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spent Fuel Pool Neutron Absorber Degradation</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Spent Fuel Pool Neutron Absorber Degradation">
+  <meta name="author" content="Amrit D. Patel">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+      <slide class="nobackground">
+    <article class="flexbox vcenter">
+      <span>
+        <img width='300px' src="assets/img/NRC.jpg">
+      </span>
+    </article>
+  </slide>
+    <slide class="title-slide segue nobackground">
+  <aside class="gdbar">
+    <img src="assets/img/NRC.gif">
+  </aside>
+  <hgroup class="auto-fadein">
+    <h1>Spent Fuel Pool Neutron Absorber Degradation</h1>
+    <h2>K-effective Sensitivity Studies</h2>
+    <p>Amrit D. Patel<br/>NRR/DSS/SRXB/SFT</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="quote nobackground segue" id="slide-1" style="background:;">
+  <article data-timings="">
+    <style>
+.title-slide {
+  background-color: #FFFFFF; /* #EDE0CF; ; #CA9F9D*/
+}
+</style>
+
+<p><q> Any degradation should be modeled <span class = 'red'>conservatively</span>, consistent with the certainty with which the material condition can be established.</q></p>
+
+<p>Source: <a href="http://pbadupws.nrc.gov/docs/ML1106/ML110620086.pdf">DSS-ISG-2010-01</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Overview</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Motivation</li>
+<li>Degradation studies</li>
+<li>Takeaways</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Motivation</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CB0QFjAA&amp;url=http%3A%2F%2Fpbadupws.nrc.gov%2Fdocs%2FML1310%2FML13100A086.pdf&amp;ei=QxfQU_fdG42HogTdnILABQ&amp;usg=AFQjCNH5uxSzF_IA7t-rEecH4wFzkdzvIw&amp;sig2=dooFQi9GJzz0d6EvyKN5Wg&amp;bvm=bv.71667212,d.ZGU">GL 201X-XX: Monitoring of Neutron Absorbing Materials in Spent Fuel Pools</a> (2014)</li>
+<li><a href="http://pbadupws.nrc.gov/docs/ML1412/ML14121A469.pdf">IN 2014-09: Spent Fuel Storage or Transportation System Misloading</a> (2014)</li>
+<li><a href="http://pbadupws.nrc.gov/docs/ML1216/ML121660156.pdf">IN 2012-13: Boraflex Degradation Surveillance Programs and Corrective Actions in the Spent Fuel Pool</a> (2012)</li>
+<li><a href="http://pbadupws.nrc.gov/docs/ML0924/ML092440545.pdf">IN 2009-26: Degradation of Neutron-Absorbing Materials in the Spent Fuel Pool</a> (2009)</li>
+<li><a href="http://www.nrc.gov/reading-rm/doc-collections/gen-comm/gen-letters/1996/gl96004.html">GL 96-04: Boraflex Degradation In Spent Fuel Pool Storage</a> (1996)</li>
+<li><a href="http://www.nrc.gov/reading-rm/doc-collections/gen-comm/info-notices/1995/in95038.html">IN 95-38: Degradation of Boraflex Neutron Absorber in Spent Fuel Storage Racks</a> (1995)</li>
+<li><a href="http://www.nrc.gov/reading-rm/doc-collections/gen-comm/info-notices/1993/in93070.html">IN 93-70: Degradation of Boraflex Neutron Absorber Coupons</a> (1993)</li>
+<li><a href="http://www.nrc.gov/reading-rm/doc-collections/gen-comm/info-notices/1987/in87043.html">IN 87-43: Gaps in Neutron Absorbing Material in High-Density Spent Fuel Storage Racks</a> (1987)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Motivation</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>Currently a wide range of degraded conditions among existing plants:</p>
+
+<ul>
+<li>Boraflex</li>
+<li>Carborundum</li>
+<li>Boral?</li>
+</ul></li>
+<li><p>Potential for regulatory compliance issues that could lead to safety concerns</p></li>
+<li><p>Questions:</p>
+
+<ul>
+<li>How much sub-critical margin actually exists in SFPs?</li>
+<li>How bad can it get?</li>
+<li>How much benefit to crediting higher burnup fuel?</li>
+<li>What&#39;s the minimum absorber needed at these higher burnups?</li>
+</ul></li>
+<li><p>Assessment capability</p></li>
+</ul>
+
+<!-- Need to quickly assess severity for a wide range of scenarios. Need to determine if any margin can be regained. Consequently, we turn to additional BUC: (1) this has already been done extensively for PWRs but (2) there is high value for BWRs.-->
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Sensitivity studies</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Areal density varied between 0 and 0.022 g/cm2</li>
+<li>Degraded panels varied between 1 and 200 </li>
+<li>PWR SFP:
+
+<ul>
+<li>W17x17 OFA fuel</li>
+<li>Burnup at 37, 41, and 44 GWd/MTU</li>
+<li>Soluble boron between 0 and 2500 ppm</li>
+</ul></li>
+<li>BWR SFP:
+
+<ul>
+<li>GE14 10x10 fuel</li>
+<li>Burnup at 12 (peak reactivity), 24, and 35 GWd/MTU</li>
+<li>Void fraction at 0.0 and 0.7</li>
+</ul></li>
+</ul>
+
+<!-- Goals: (1) cover a wide range of conditions; (2) use "modern" fuel designs; (3) for PWR
+case, define a "medium burnup credit" reference point and look at benefit of crediting the remaining
+burnup; (4) for the BWR case, use the typical peak reactivity approach as the reference point
+and look at the benefit of conservatively crediting higher burnup fuel; (5) for the BWR case,
+conservatively crediting higher burnup fuel means using limiting depletion conditions up to
+the burnup point where credit is being taken; this will involve consideration of void conditions,
+control blade insertion and associated axial burnup profile effects, different lattice designs, etc. -- in this work, only sensitivity to void conditions was studied for simplicity.-->
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>How much sub-critical margin actually exists in SFPs?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><iframe src=' figure/rplot1.html ' scrolling='no' frameBorder='0' seamless class='rChart polycharts ' id=iframe- chart1a4c6c8c73e4 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
+
+<!-- Start with nominal point; explain that as material degrades (i.e. moving up and to the left)
+that keff increases eventually surpassing the regulatory limit; this study looks at the potential 
+benefit of crediting higher burnup fuel relative to two "typical" design basis SFP criticality 
+analyses -- one BWR pool and one PWR pool. For the BWR pool, the design basis analysis is at peak 
+reactivity and for the PWR pool it is around 75% of the max creditable burnup.
+
+In the PWR case, it is likely pretty clear that there is less to be gained by crediting burnup
+compared to the BWR case since taking full burnup credit is now common practice with PWR fuel. It
+is also clear that PWRs have the added benefit of soluble boron (point out huge keff range due to soluble boron). Due to the conservative nature of BWR SFP criticality analyses, it is not so
+clear how much margin exists (can see some benefit by looking at the blue points -- the lower
+blue points are associated with higher burnup).
+
+NOTE: Areal density sensitivity for BWRs is much greater than PWRs. This is likely due to the
+harder spectrum in the PWR case, which reduces the worth of the absorber panels. For the PWR case,
+it is seen that there is very little sensitivity between 0.016 and 0.022 g/cm2 (independent of the
+number of panels affected) and still little sensitivity at lower areal densities when only a
+handful of panels are affected. --> 
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>How bad can it get?</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>PWR case</h3>
+
+<p><iframe src=' figure/nvd3plot2.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart1a4c65e97347 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
+
+<!-- Shows sensitivity to full panel degradation at various soluble boron conditions. It can 
+get pretty bad as seen in the cases with no soluble boron. In this case, very localized
+degradation (e.g. 4-8 panels) can cause reactivity increases between 500 and 3000 pcm. It is
+clear from this plot that PWR SFPs will be limited by the zero soluble boron case when dealing
+with degradation in order to meet 10 CFR 50.68. --> 
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>How bad can it get?</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>BWR case</h3>
+
+<p><iframe src=' figure/nvd3plot3.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart1a4c38e075 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
+
+<!-- The sensitivity to varying depletion conditions can be seen here. Note that there are
+three clusters of points for each degradation case. The top cluster corresponds to the
+reference burnup and the bottom corresponds to the highest burnup case. We can see that as the
+burnup increases (i.e. moving from the top cluster to the bottom cluster), the higher void
+fraction cases result in a larger reactivity effect. By establishing the limiting depletion 
+condition as a function of burnup, conservatism can still be maintained while gaining margin at
+the same time. --> 
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>How much benefit to crediting higher burnup fuel?</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Net k-eff change with degradation at higher burnup</h3>
+
+<h3>(PWR, 44 GWd/MTU, 0 ppm solbor)</h3>
+
+<p><iframe src=' figure/nvd3plot4.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart1a4c30a141a2 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
+
+<!-- The 0 ppm case is plotted since it will be limiting with respect to meeting 10 CFR 50.68.
+We can see that extensive degradation is still manageable for a range of scenarios; however, it
+is important to keep in mind that any net keff increases takes away from margin that might be 
+needed for limiting accident analyses.
+
+We can see that substantial degradation could be tolerated in many cases (~25% global) -- point
+out close to zero net effect going from 0.022 to 0.016 g/cm2. --> 
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>How much benefit to crediting higher burnup fuel?</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Net k-eff change with degradation at higher burnup</h3>
+
+<h3>(BWR, 35 GWd/MTU, 0 void fraction)</h3>
+
+<p><iframe src=' figure/nvd3plot5.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart1a4c52bc39e4 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
+
+<!-- We can again see that extensive degradation is still manageable for a range of scenarios.
+
+We can see that substantial degradation could be tolerated in many cases (~75% global) -- point
+out close to zero net effect going from 0.022 to 0.006 g/cm2. --> 
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Assessment capability developed</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Utility developed covering full range of degraded conditions to:</p>
+
+<ul>
+<li>Give a quick assessment of k-eff impact</li>
+<li>Give an idea of the value of increased burnup credit</li>
+<li>Support enforcement activities</li>
+<li>Perform confirmatory analysis</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Assessment capability developed</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="https://dl.dropboxusercontent.com/u/22056684/MADS/assets/img/mads.png"></p>
+
+<!-- Histogram plots were added as output to the program in order for the user to explore trends for specific degradation scenarios -->
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Takeaways</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol class = "build incremental">
+<li><p>Difficult to generically quantify reactivity effects (highly plant-dependent)</p></li>
+<li><p>PWRs have to meet two regulatory limits:</p>
+
+<ul>
+<li>Potentially significant margin to cope with accidents (crediting soluble boron)</li>
+<li>For cases without soluble boron, absorber degradation management is limited</li>
+</ul></li>
+<li><p>BWRs have to meet one regulatory limit:</p>
+
+<ul>
+<li>Employ a very limiting analysis =&gt; significant margin (but unquantified)</li>
+<li>Burnup credit past peak reactivity useful to counter significant absorber degradation</li>
+<li>Depletion is complex, but bounding approach could be taken</li>
+</ul></li>
+<li><p>Assessment capabilities developed to support enforcement and licensing activities</p></li>
+</ol>
+
+<!-- Notes:
+(1) 1oo4, 2oo4, etc. not preferable since it opens up possibility for fuel misloads. --> 
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>References</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The data from this presentation (including the scripts used to generate the various plots), and other resources related to this work, are accessible at <a href="https://github.com/AmritPatel/MADS">https://github.com/AmritPatel/MADS</a>.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title=''>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Overview'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Motivation'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Motivation'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Sensitivity studies'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='How much sub-critical margin actually exists in SFPs?'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='How bad can it get?'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='How bad can it get?'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='How much benefit to crediting higher burnup fuel?'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='How much benefit to crediting higher burnup fuel?'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Assessment capability developed'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Assessment capability developed'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Takeaways'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='References'>
+         14
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  <script src="./assets/js/snippets.js"></script>
+
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

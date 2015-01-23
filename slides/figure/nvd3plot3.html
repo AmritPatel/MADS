@@ -1,0 +1,599 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://nvd3.org/assets/css/nv.d3.css'>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart1a4c38e075' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart1a4c38e075()
+    });
+    function drawchart1a4c38e075(){  
+      var opts = {
+ "dom": "chart1a4c38e075",
+"width":    800,
+"height":    400,
+"x": "panels_deg",
+"y": "dk",
+"group": "vf",
+"type": "scatterChart",
+"size": {
+ "const":      3 
+},
+"id": "chart1a4c38e075" 
+},
+        data = [
+ {
+ "panels_deg": 0,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":              0 
+},
+{
+ "panels_deg": 0,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":              0 
+},
+{
+ "panels_deg": 1,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.00249 
+},
+{
+ "panels_deg": 1,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.00293 
+},
+{
+ "panels_deg": 1,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":        0.00229 
+},
+{
+ "panels_deg": 1,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":         0.0012 
+},
+{
+ "panels_deg": 1,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.00037 
+},
+{
+ "panels_deg": 1,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk": 0.0008999999999999 
+},
+{
+ "panels_deg": 2,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.00541 
+},
+{
+ "panels_deg": 2,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.00601 
+},
+{
+ "panels_deg": 2,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":        0.00457 
+},
+{
+ "panels_deg": 2,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":        0.00402 
+},
+{
+ "panels_deg": 2,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.00167 
+},
+{
+ "panels_deg": 2,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.00215 
+},
+{
+ "panels_deg": 3,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.01644 
+},
+{
+ "panels_deg": 3,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.01563 
+},
+{
+ "panels_deg": 3,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":        0.00933 
+},
+{
+ "panels_deg": 3,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":        0.01094 
+},
+{
+ "panels_deg": 3,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.00485 
+},
+{
+ "panels_deg": 3,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.00635 
+},
+{
+ "panels_deg": 4,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.03344 
+},
+{
+ "panels_deg": 4,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.03277 
+},
+{
+ "panels_deg": 4,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":        0.02015 
+},
+{
+ "panels_deg": 4,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":        0.02158 
+},
+{
+ "panels_deg": 4,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.01014 
+},
+{
+ "panels_deg": 4,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.01305 
+},
+{
+ "panels_deg": 8,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.08096 
+},
+{
+ "panels_deg": 8,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.08044 
+},
+{
+ "panels_deg": 8,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":        0.05749 
+},
+{
+ "panels_deg": 8,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":          0.062 
+},
+{
+ "panels_deg": 8,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.03344 
+},
+{
+ "panels_deg": 8,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.04104 
+},
+{
+ "panels_deg": 12,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.11367 
+},
+{
+ "panels_deg": 12,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.11316 
+},
+{
+ "panels_deg": 12,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":        0.08591 
+},
+{
+ "panels_deg": 12,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":          0.091 
+},
+{
+ "panels_deg": 12,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.05613 
+},
+{
+ "panels_deg": 12,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.06517 
+},
+{
+ "panels_deg": 20,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.16071 
+},
+{
+ "panels_deg": 20,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.16058 
+},
+{
+ "panels_deg": 20,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":        0.12857 
+},
+{
+ "panels_deg": 20,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":        0.13527 
+},
+{
+ "panels_deg": 20,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.09081 
+},
+{
+ "panels_deg": 20,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.10217 
+},
+{
+ "panels_deg": 40,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.21311 
+},
+{
+ "panels_deg": 40,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.21088 
+},
+{
+ "panels_deg": 40,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":         0.1786 
+},
+{
+ "panels_deg": 40,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":        0.18577 
+},
+{
+ "panels_deg": 40,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.13654 
+},
+{
+ "panels_deg": 40,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.14961 
+},
+{
+ "panels_deg": 80,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.25116 
+},
+{
+ "panels_deg": 80,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":         0.2503 
+},
+{
+ "panels_deg": 80,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":        0.22095 
+},
+{
+ "panels_deg": 80,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":        0.22551 
+},
+{
+ "panels_deg": 80,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.17623 
+},
+{
+ "panels_deg": 80,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.18979 
+},
+{
+ "panels_deg": 200,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":              0,
+"dk":        0.30305 
+},
+{
+ "panels_deg": 200,
+"type": "bwr",
+"solbor": 0,
+"burnup": 12,
+"vf":            0.7,
+"dk":        0.30109 
+},
+{
+ "panels_deg": 200,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":              0,
+"dk":         0.2926 
+},
+{
+ "panels_deg": 200,
+"type": "bwr",
+"solbor": 0,
+"burnup": 24,
+"vf":            0.7,
+"dk":        0.29277 
+},
+{
+ "panels_deg": 200,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":              0,
+"dk":        0.27956 
+},
+{
+ "panels_deg": 200,
+"type": "bwr",
+"solbor": 0,
+"burnup": 35,
+"vf":            0.7,
+"dk":        0.28143 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        chart
+  .margin({
+ "left":    100 
+})
+          
+        chart.xAxis
+  .axisLabel("Number of Fully Degraded Panels")
+
+        
+        
+        chart.yAxis
+  .axisLabel("Delta-k")
+  .tickFormat( function(d) {return d3.format('.3f')(d)} )
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>

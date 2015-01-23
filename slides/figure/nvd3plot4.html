@@ -1,0 +1,499 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://nvd3.org/assets/css/nv.d3.css'>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart1a4c30a141a2' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart1a4c30a141a2()
+    });
+    function drawchart1a4c30a141a2(){  
+      var opts = {
+ "dom": "chart1a4c30a141a2",
+"width":    800,
+"height":    400,
+"x": "areal_dens",
+"y": "Net",
+"group": "panels_deg",
+"type": "multiBarChart",
+"size": {
+ "const":      3 
+},
+"id": "chart1a4c30a141a2" 
+},
+        data = [
+ {
+ "areal_dens":          1e-11,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.03151,
+"panels_deg": 4,
+"dk_down":       -0.00763,
+"Net":        0.02388 
+},
+{
+ "areal_dens":          0.002,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00574,
+"panels_deg": 4,
+"dk_down":       -0.00177,
+"Net":        0.00397 
+},
+{
+ "areal_dens":          0.004,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00184,
+"panels_deg": 4,
+"dk_down": -0.0005000000000001,
+"Net":        0.00134 
+},
+{
+ "areal_dens":          0.006,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":         0.0016,
+"panels_deg": 4,
+"dk_down":       -0.00141,
+"Net":        0.00019 
+},
+{
+ "areal_dens":          0.008,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00056,
+"panels_deg": 4,
+"dk_down":       -0.00049,
+"Net": 7.000000000001e-05 
+},
+{
+ "areal_dens":           0.01,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00115,
+"panels_deg": 4,
+"dk_down":       -0.00104,
+"Net": 0.0001100000000001 
+},
+{
+ "areal_dens":          0.012,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00029,
+"panels_deg": 4,
+"dk_down": -0.0002799999999999,
+"Net": 1.000000000007e-05 
+},
+{
+ "areal_dens":          0.014,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00026,
+"panels_deg": 4,
+"dk_down":       -0.00065,
+"Net":       -0.00039 
+},
+{
+ "areal_dens":          0.016,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up": -9.999999999954e-06,
+"panels_deg": 4,
+"dk_down": -4.999999999999e-05,
+"Net": -5.999999999995e-05 
+},
+{
+ "areal_dens":          0.018,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":       -0.00032,
+"panels_deg": 4,
+"dk_down":         0.0011,
+"Net":        0.00078 
+},
+{
+ "areal_dens":           0.02,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up": -0.0004299999999999,
+"panels_deg": 4,
+"dk_down":         0.0002,
+"Net":       -0.00023 
+},
+{
+ "areal_dens":          0.022,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up": 0.0003700000000001,
+"panels_deg": 4,
+"dk_down":       -0.00083,
+"Net": -0.0004599999999999 
+},
+{
+ "areal_dens":          1e-11,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.10271,
+"panels_deg": 20,
+"dk_down":       -0.01218,
+"Net":        0.09053 
+},
+{
+ "areal_dens":          0.002,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.03829,
+"panels_deg": 20,
+"dk_down":        -0.0084,
+"Net":        0.02989 
+},
+{
+ "areal_dens":          0.004,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.02073,
+"panels_deg": 20,
+"dk_down":       -0.00698,
+"Net":        0.01375 
+},
+{
+ "areal_dens":          0.006,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.01195,
+"panels_deg": 20,
+"dk_down":       -0.00546,
+"Net":        0.00649 
+},
+{
+ "areal_dens":          0.008,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00749,
+"panels_deg": 20,
+"dk_down":       -0.00387,
+"Net":        0.00362 
+},
+{
+ "areal_dens":           0.01,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00483,
+"panels_deg": 20,
+"dk_down":       -0.00316,
+"Net":        0.00167 
+},
+{
+ "areal_dens":          0.012,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00284,
+"panels_deg": 20,
+"dk_down":        -0.0017,
+"Net":        0.00114 
+},
+{
+ "areal_dens":          0.014,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00247,
+"panels_deg": 20,
+"dk_down":       -0.00253,
+"Net": -5.999999999995e-05 
+},
+{
+ "areal_dens":          0.016,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00123,
+"panels_deg": 20,
+"dk_down":       -0.00156,
+"Net": -0.0003299999999999 
+},
+{
+ "areal_dens":          0.018,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00017,
+"panels_deg": 20,
+"dk_down":       -0.00078,
+"Net":       -0.00061 
+},
+{
+ "areal_dens":           0.02,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00053,
+"panels_deg": 20,
+"dk_down":        -0.0011,
+"Net":       -0.00057 
+},
+{
+ "areal_dens":          0.022,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up": 9.999999999999e-05,
+"panels_deg": 20,
+"dk_down":       -0.00144,
+"Net":       -0.00134 
+},
+{
+ "areal_dens":          1e-11,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.16442,
+"panels_deg": 200,
+"dk_down":       -0.01395,
+"Net":        0.15047 
+},
+{
+ "areal_dens":          0.002,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.08425,
+"panels_deg": 200,
+"dk_down":       -0.01293,
+"Net":        0.07132 
+},
+{
+ "areal_dens":          0.004,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.05756,
+"panels_deg": 200,
+"dk_down":       -0.01083,
+"Net":        0.04673 
+},
+{
+ "areal_dens":          0.006,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.04296,
+"panels_deg": 200,
+"dk_down":       -0.01107,
+"Net":        0.03189 
+},
+{
+ "areal_dens":          0.008,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.03321,
+"panels_deg": 200,
+"dk_down":       -0.01106,
+"Net":        0.02215 
+},
+{
+ "areal_dens":           0.01,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.02559,
+"panels_deg": 200,
+"dk_down":       -0.01124,
+"Net":        0.01435 
+},
+{
+ "areal_dens":          0.012,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.01919,
+"panels_deg": 200,
+"dk_down":       -0.01076,
+"Net":        0.00843 
+},
+{
+ "areal_dens":          0.014,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":         0.0142,
+"panels_deg": 200,
+"dk_down":       -0.01018,
+"Net":        0.00402 
+},
+{
+ "areal_dens":          0.016,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00975,
+"panels_deg": 200,
+"dk_down":       -0.00984,
+"Net": -8.999999999992e-05 
+},
+{
+ "areal_dens":          0.018,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00602,
+"panels_deg": 200,
+"dk_down":        -0.0106,
+"Net":       -0.00458 
+},
+{
+ "areal_dens":           0.02,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":        0.00308,
+"panels_deg": 200,
+"dk_down":       -0.00995,
+"Net":       -0.00687 
+},
+{
+ "areal_dens":          0.022,
+"type": "pwr",
+"solbor": 0,
+"vf":              0,
+"burnup": 37,
+"dk_up":              0,
+"panels_deg": 200,
+"dk_down":       -0.00952,
+"Net":       -0.00952 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        chart
+  .margin({
+ "left":    100 
+})
+          
+        chart.xAxis
+  .axisLabel("Areal Density")
+
+        
+        
+        chart.yAxis
+  .axisLabel("Delta-k")
+  .tickFormat( function(d) {return d3.format('.3f')(d)} )
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>

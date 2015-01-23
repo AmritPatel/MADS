@@ -1,0 +1,1591 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://nvd3.org/assets/css/nv.d3.css'>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart1a4c65e97347' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart1a4c65e97347()
+    });
+    function drawchart1a4c65e97347(){  
+      var opts = {
+ "dom": "chart1a4c65e97347",
+"width":    800,
+"height":    400,
+"x": "panels_deg",
+"y": "dk",
+"group": "solbor",
+"type": "scatterChart",
+"size": {
+ "const":      3 
+},
+"id": "chart1a4c65e97347" 
+},
+        data = [
+ {
+ "panels_deg": 0,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":              0 
+},
+{
+ "panels_deg": 0,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":              0 
+},
+{
+ "panels_deg": 0,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":              0 
+},
+{
+ "panels_deg": 0,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":              0 
+},
+{
+ "panels_deg": 0,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":              0 
+},
+{
+ "panels_deg": 0,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":              0 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00119 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00143 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":         0.0011 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":         0.0013 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":         0.0016 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00039 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00084 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00105 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk": -4.000000000004e-05 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00071 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":         0.0006 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00018 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00036 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":              0 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":         0.0003 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":         0.0012 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00073 
+},
+{
+ "panels_deg": 1,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00024 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00511 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00472 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00367 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00328 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":         0.0032 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00357 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00254 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00241 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00167 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00167 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00164 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00148 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00137 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00168 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk": 0.0006699999999999 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00147 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00131 
+},
+{
+ "panels_deg": 2,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00109 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.01809 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.01488 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.01252 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.01027 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00902 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00712 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00684 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":         0.0054 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00469 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00479 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00326 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00272 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00442 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00291 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00192 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00301 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00223 
+},
+{
+ "panels_deg": 3,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":          0.002 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.03114 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.02849 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.02434 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.02022 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.01712 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.01511 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.01378 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.01137 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00926 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.01038 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00781 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00619 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00766 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00576 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":         0.0056 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.00488 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.00465 
+},
+{
+ "panels_deg": 4,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00414 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.06137 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.05652 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.05184 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.04272 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.03822 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.03481 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.03165 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.02887 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":         0.0238 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.02448 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.02049 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.01758 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.01928 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.01617 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.01323 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":         0.0155 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.01314 
+},
+{
+ "panels_deg": 8,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.00971 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":         0.0787 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.07333 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.06846 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.05684 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.05147 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.04722 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":         0.0426 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.03863 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.03531 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.03449 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.03002 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.02617 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.02842 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.02455 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.02069 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.02317 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.01997 
+},
+{
+ "panels_deg": 12,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":         0.0166 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.10261 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.09776 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.09187 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.07592 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":         0.0706 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.06634 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.05913 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.05448 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.05001 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.04809 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.04354 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.03891 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.03919 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.03644 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.03186 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.03385 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.02988 
+},
+{
+ "panels_deg": 20,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":          0.026 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.12651 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.12175 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.11606 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.09648 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.09099 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.08611 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.07593 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.07231 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.06609 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.06239 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.05809 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.05398 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.05411 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.04926 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":         0.0443 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.04574 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":         0.0423 
+},
+{
+ "panels_deg": 40,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.03682 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.14385 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":        0.13934 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.13324 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.11078 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.10574 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.10133 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":          0.089 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.08363 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.07972 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.07413 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.06934 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.06479 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.06319 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.05905 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.05503 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.05494 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.05074 
+},
+{
+ "panels_deg": 80,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.04689 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 0,
+"burnup": 37,
+"vf":              0,
+"dk":        0.16442 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 0,
+"burnup": 41,
+"vf":              0,
+"dk":         0.1626 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 0,
+"burnup": 44,
+"vf":              0,
+"dk":        0.15999 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.12837 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.12657 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 500,
+"burnup": 44,
+"vf":              0,
+"dk":         0.1251 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.10504 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.10324 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 1000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.10222 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.08831 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.08793 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 1500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.08628 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 37,
+"vf":              0,
+"dk":        0.07604 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 41,
+"vf":              0,
+"dk":        0.07479 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 2000,
+"burnup": 44,
+"vf":              0,
+"dk":        0.07339 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 37,
+"vf":              0,
+"dk":        0.06717 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 41,
+"vf":              0,
+"dk":        0.06579 
+},
+{
+ "panels_deg": 200,
+"type": "pwr",
+"solbor": 2500,
+"burnup": 44,
+"vf":              0,
+"dk":        0.06471 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        chart
+  .margin({
+ "left":    100 
+})
+          
+        chart.xAxis
+  .axisLabel("Number of Fully Degraded Panels")
+
+        
+        
+        chart.yAxis
+  .axisLabel("Delta-k")
+  .tickFormat( function(d) {return d3.format('.3f')(d)} )
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>
