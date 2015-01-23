@@ -32,25 +32,27 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="mads" class="anchor" href="#mads"><span class="octicon octicon-link"></span></a>MADS</h1>
+<a id="mads" class="anchor" href="#mads" aria-hidden="true"><span class="octicon octicon-link"></span></a>MADS</h1>
 
 <p>Map of Absorber Degradation Sensitivity (MADS) interpolates between an initial and final degradation state point based on data calculated from BWR/PWR SFP fixed neutron absorber degradation sensitivity studies.</p>
 
 <h1>
-<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h1>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h1>
 
 <ul>
 <li>Python 2.7</li>
 <li>Numpy</li>
 <li>PyLab</li>
-</ul><h1>
-<a name="command-line-execution" class="anchor" href="#command-line-execution"><span class="octicon octicon-link"></span></a>Command-line Execution</h1>
+</ul>
+
+<h1>
+<a id="command-line-execution" class="anchor" href="#command-line-execution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Command-line Execution</h1>
 
 <pre><code>./mads.py type solbor1 npanels1 adens1 solbor2 npanels2 adens2
 </code></pre>
 
 <h1>
-<a name="command-line-argument-definitions" class="anchor" href="#command-line-argument-definitions"><span class="octicon octicon-link"></span></a>Command-line Argument Definitions</h1>
+<a id="command-line-argument-definitions" class="anchor" href="#command-line-argument-definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Command-line Argument Definitions</h1>
 
 <pre><code>type        # fuel and rack type; options are "pwr" or "bwr"
 solbor1     # initial soluble boron concentration in ppm; pwr takes input between 0 and 2500
@@ -62,7 +64,12 @@ adens2      # final degraded areal density; must be a number between 0 and 0.022
 </code></pre>
 
 <h1>
-<a name="summary-plots" class="anchor" href="#summary-plots"><span class="octicon octicon-link"></span></a>Summary Plots</h1>
+<a id="research-using-mads" class="anchor" href="#research-using-mads" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research Using MADS</h1>
+
+<p><a href="http://amritpatel.github.io/MADS/slides/mads.html">Spent Fuel Pool Neutron Absorber Degradation: K-effective Sensitivity Studies</a></p>
+
+<h1>
+<a id="summary-plots" class="anchor" href="#summary-plots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summary Plots</h1>
 
 <p><a href="http://rcharts.io/viewer/?ac77c1d20ad6893806b0#.U4M2VVhdWxw" title="View in rCharts Viewer">Delta-k-eff vs. Number of Fully Degraded Panels (BWR SFP)</a></p>
 
