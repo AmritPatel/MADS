@@ -35,7 +35,7 @@ Research Using MADS
 
 [Spent Fuel Pool Neutron Absorber Degradation: K-effective Sensitivity Studies (presentation)](http://amritpatel.github.io/MADS/slides/mads.html)
 
-[Neutron Absorber Degradation Sensitivity Studies (papers)](https://adamsxt.nrc.gov/WorkplaceXT/getContent?id=release&vsId=%7BA059E301-B9D1-4D56-BC1E-AD0B0E108B18%7D&objectStoreName=Main.__.Library&objectType=document)
+[Neutron Absorber Degradation Sensitivity Studies (papers)](https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=ML15152A335)
 
 Summary Plots
 =============
